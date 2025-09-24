@@ -1,0 +1,37 @@
+{
+  "material": "Si (single crystal, 300 K)",
+  "provenance": {
+    "C11_GPa": 165.7,
+    "C12_GPa": 63.9,
+    "C44_GPa": 79.6,
+    "source": "Hopcroft et al., JMEMS 2010"
+  },
+  "compliance": {
+    "S11_1overGPa": 0.007684506815983507,
+    "S12_1overGPa": -0.002138675895214922,
+    "S44_1overGPa": 0.01256281407035176
+  },
+  "beam_setup": {
+    "b_m": 0.01,
+    "h_m": 0.001,
+    "L_m": 0.1,
+    "load_P_N": 10.0
+  },
+  "results_key_dirs": [
+    {
+      "direction": "<100>",
+      "E_GPa": 130.13196864111498,
+      "delta_mid_mm": 1.921126703995877
+    },
+    {
+      "direction": "<110>",
+      "E_GPa": 169.10118892084893,
+      "delta_mid_mm": 1.4784047444930581
+    },
+    {
+      "direction": "<111>",
+      "E_GPa": 187.85258643795234,
+      "delta_mid_mm": 1.3308307579921184
+    }
+  ]
+}
